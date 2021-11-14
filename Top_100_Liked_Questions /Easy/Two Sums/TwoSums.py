@@ -15,7 +15,7 @@ def twoSum(self, nums, target):
                 return [i,j]
 
 
-#runtime = O(N^2) 
+#O(N^2) runtime
         """
         :type nums: List[int]
         :type target: int
