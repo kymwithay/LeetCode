@@ -1,4 +1,6 @@
-#psuedo code
+
+#BRUCE FORCE RUNTIME = O(N^2)
+#PSUEDO CODE for Brute Force Method
 #Take one element
 #Add this element with every other element
 #After adding, compare the sum with the given target
@@ -13,11 +15,3 @@ def twoSum(self, nums, target):
             #If the sum is equal to the target, return the indices of these two elements
             if (nums[i] + nums[j] == target):
                 return [i,j]
-
-
-#runtime = O(N^2) 
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
